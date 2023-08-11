@@ -6,9 +6,5 @@
     "express": "^4.18.2",
     "node": "^20.5.0",
     "nodemailer": "^6.9.4"
-  },
-  "scripts": {
-    "start" : "node email.js",
-    "vercel-build" : "echo hello"
   }
 }
