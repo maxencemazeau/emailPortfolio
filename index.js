@@ -17,6 +17,11 @@ const corsOptions ={
 }
 app.use(cors(corsOptions));
 
+
+app.get('/', (req, res) => {
+  res.json({message : "Api Live"})
+});
+
 app.post('/send-email', async (req, res) => {
 
   const { email, sujet, objet, name } = req.body;
